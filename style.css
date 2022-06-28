@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 100%;
+    width: 800px;
+  }
+  
+  h3 {
+
+  }
+  
+  .joke {
+
+  }
+  
+  .btn {
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    
+  }
+  
+  .btn:active {
+    
+  }
+  
+  .btn:focus {
+    
+  }
