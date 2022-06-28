@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;700&display=swap');
 * {
     box-sizing: border-box;
   }
@@ -7,33 +8,61 @@
     margin: 0;
     overflow: hidden;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Dosis', sans-serif;
+    background-color: #cdb4db;
   }
   
   .container {
     max-width: 100%;
-    width: 800px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #a2d2ff;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
   }
   
   h3 {
+    color:gray;
 
   }
   
   .joke {
+    text-align: center;
+    color: #ffafcc;
+    font-size: 2rem;
+    font-weight: 700;
 
   }
   
   .btn {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
     cursor: pointer;
+    background-color: #bde0fe;
+    color: gray;
+    border: none;
+    box-shadow: 1px 1px 4px grey;
+    transition: width 2s;
   }
   
   .btn:hover {
-    
+    background-color: #cdb4db;
+    color: white;
   }
   
   .btn:active {
-    
+    transform: scale(.95);
+
   }
   
   .btn:focus {
-    
+    outline: 0;
   }
