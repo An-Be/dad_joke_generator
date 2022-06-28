@@ -14,8 +14,10 @@ const generateJoke = async () => {
    * Then, create a new variable called data, and assign it the value of response.json() - remember, this is an asynchronous task too!
    * If you complete the last two lines correctly, uncomment the line below, and you should have a correctly working API call!
    */
+  const response = await fetch('https://icanhazdadjoke.com', config);
+  const data = await response.json()
 
-  //REMOVE COMMENT: jokeElement.innerHTML = data.joke;
+  jokeElement.innerHTML = data.joke;
 };
 
 //Initial call
